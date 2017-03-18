@@ -1,2 +1,0 @@
-# pageline
-Onepage WordPress Theme
