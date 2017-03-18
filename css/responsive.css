@@ -1,0 +1,386 @@
+@media (max-width: 1900px) {}
+
+@media (max-width: 1800px) {
+    .owl-prev {
+        top: -270px;
+    }
+    .owl-next {
+        top: -270px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .owl-prev {
+        top: -220px;
+    }
+    .owl-next {
+        top: -220px;
+    }
+    .inner p {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nnc-container {
+        max-width: 992px;
+    }
+    .owl-prev {
+        bottom: 240px;
+    }
+    .owl-next {
+        bottom: 240px;
+    }
+    form.wpcf7-form p:nth-child(2) {
+        margin-right: 14px;
+    }
+    form.wpcf7-form p:nth-child(3) {
+        margin-right: 14px;
+    }
+    .archive .has-post-thumbnail .nnc-entry-block {
+    width: 57%;
+}
+}
+
+@media (max-width: 991px) {
+
+.nnc-container {
+    max-width: 767px;
+}
+
+.ts-nav-icon { 
+    display: block;
+}
+    .main-navigation {
+        display: none;
+    }
+
+    .main-navigation {
+    width: 100%;
+    position: absolute;
+    background: rgba(000,000,000,.7);
+    top: 110px;
+    right: 0px;
+    height: 71px;
+    text-align: center;
+}
+
+.main-navigation li {
+    float: none;
+    display: inline-block; 
+    padding: 22px;
+    text-align: center;
+}
+
+.site-header.nnc-sticky .main-navigation {
+    width: 100%; 
+    position: absolute; 
+    background: #fff;
+    top: 0px;
+    right: 0px;
+    height: 71px;
+}
+
+.site-header.nnc-sticky .main-navigation li {  
+    padding: 22px;
+    float: left;
+} 
+    .nnc-service {
+        width: 48.1%;
+        margin-bottom: 40px;
+    }
+    .nnc-service:nth-of-type(3) {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .nnc-service:nth-of-type(4) {
+        margin-bottom: 0;
+    }
+    form.wpcf7-form p {
+        width: 30%
+    }
+    .nnc-inside-dtl p {
+        display: none;
+    }
+    .nnc-inside-dtl a {
+        text-decoration: none;
+        padding: 7px 8px;
+        font-size: 13px;
+    }
+    form.wpcf7-form p:nth-child(2) {
+        margin-right: 5%;
+    }
+    form.wpcf7-form p:nth-child(3) {
+        margin-right: 5%;
+    }
+    .inner h2 {
+        font-size: 24px;
+    }
+    .inner h2:after {
+        max-width: 300px;
+        margin: 18px auto 18px;
+    }
+    .inner p {
+        max-width: 600px;
+        font-size: 14px;
+    }
+    .archive figure.nnc-entry-image { 
+    margin-right: 24px;
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.archive .has-post-thumbnail .nnc-entry-block {
+    width: 100%;
+    float: none; 
+}
+
+
+}
+
+@media (max-width: 767px) {
+    .nnc-container {
+        max-width: 624px;
+    }
+    .main-navigation a {
+        font-size: 14px;
+    }
+    .site-header.nnc-sticky .main-navigation li {
+    padding: 22px 11px; 
+}
+.main-navigation li { 
+    padding: 22px 11px;
+    }
+    .inner p {
+        max-width: 400px;
+        line-height: 28px;
+    }
+    .nnc-about-img {
+        max-width: 100%;
+    }
+    .nnc-about-desc {
+    max-width: 100%;
+    margin-top: 24px;
+    padding: 0;
+}
+.nnc-service {
+    width: 47.7%; 
+}
+.nnc-project {
+    float: left;
+    width: 47.8%;
+}
+.nnc-project:nth-of-type(3n) {
+    margin-right: 24px;
+}
+.nnc-project:nth-of-type(2n) {
+    margin-right: 0;
+}
+.nnc-cta-block h2 {
+    font-size: 16px;
+    line-height: 26px;
+}
+.nnc-cta-block p {
+    padding-top: 2px;
+    font-size: 13px;
+}
+.nnc-status { 
+    width: 47.7%;
+}
+
+.nnc-status:nth-of-type(3) { 
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.nnc-status:nth-of-type(4) {  
+    margin-top: 30px;
+}
+
+.nnc-blog-block {
+    width: 100%;
+    margin: 30px 0 0;
+    }
+
+.banner-slider .owl-theme .owl-nav { 
+    display: none;
+}
+
+.nnc-col-one-third span {
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.nnc-col-one-third i {
+    font-size: 36px;
+}
+
+.nnc-footer-block {
+    width: 47.2%;
+}
+.nnc-footer-block:nth-of-type(3) {
+    margin-left: 0;
+    margin-top: 40px;
+}
+.nnc-footer-block:nth-of-type(4) { 
+    margin-top: 40px;
+}
+
+#primary {
+    width: 100%;
+    padding-right: 0;
+    float: none;
+}
+
+#secondary {
+    width: 100%;
+    float: none;
+    margin-top: 40px;
+}
+.block {
+    padding: 20px;
+}
+
+.site-content .left_sidebar #primary {
+    padding-left: 0;
+}
+
+}
+
+@media (max-width: 624px) {
+
+    .nnc-container {
+        max-width: 480px;
+    }
+    .site-header.nnc-sticky .main-navigation {
+        height: initial;
+        top: 64px;
+        box-shadow: 0 0 3px 0 #eee;
+    }
+
+.site-header.nnc-sticky .main-navigation li {
+    padding: 0;
+    width: 100%;
+    display: block;
+    float: none;
+}
+
+.site-header.nnc-sticky .main-navigation li a {
+    padding: 10px; 
+    border-top: 1px solid #f4f4f4;
+}
+
+
+
+.main-navigation {
+        height: initial;
+    }
+
+.main-navigation li {
+    padding: 0;
+    width: 100%;
+    display: block;
+    float: none;
+}
+
+.main-navigation li a {
+    padding: 10px; 
+}
+
+.error-404 h1.page-title {
+    font-size: 24px;
+}
+span.error-404-num { 
+    font-size: 90px;
+    padding: 30px 0;
+}
+
+.nnc-service {
+    width: 100%;
+    margin-left: 0;
+}
+
+.nnc-project { 
+    width: 100%;
+}
+.nnc-inside-dtl p {
+    display: block;
+}
+
+.nnc-cta-block {
+    width: 100%;
+    text-align: center;
+    float: none;
+}
+
+.nnc-dtl {
+     float: none; 
+    text-align: center;
+}
+.nnc-dtl a { 
+    margin-top: 14px;
+    }
+    .nnc-status {
+    width: 47%;
+}
+.nnc-footer-block {
+    width: 100%;
+    margin-left: 0;
+}
+form.wpcf7-form p {
+    width: 100%;
+    margin-bottom: 14px;
+}
+form.wpcf7-form p:nth-of-type(3) { 
+    margin-bottom: 0;
+}
+div.wpcf7-response-output { 
+    font-size: 14px;
+}
+
+}
+
+@media (max-width: 480px) {
+
+    .nnc-container {
+        max-width: 380px;
+    }
+    .nnc-status {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.nnc-col-one-third {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.inner h2 {
+    font-size: 18px;
+}
+.inner h2:after {
+    max-width: 200px;
+    margin: 10px auto 10px;
+}
+
+.inner p {
+    max-width: 290px;
+    font-size: 13px;
+}
+
+.nnc-footer-bottom p { 
+    font-size: 13px;
+
+}
+.nnc-footer-bottom p a { 
+    font-size: 13px;
+}
+
+
+}
+
+
+ 
