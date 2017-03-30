@@ -1,22 +1,21 @@
 //************************ sticky header ***********************************//
 jQuery(document).ready(function() {
-  //Stickybar
-  if(jQuery('.site-header').length){ 
-  var stickyNavTop = jQuery('.site-header').offset().top;
-  var stickyNav = function(){
-  var scrollTop = jQuery(window).scrollTop();
-  if (scrollTop > stickyNavTop) {
-         jQuery('.site-header').addClass('nnc-sticky');
-          } else {
-              jQuery('.site-header').removeClass('nnc-sticky');
-          }
-      };
-      stickyNav(); 
-      jQuery(window).scroll(function() {
-          stickyNav();
-      });
-  } 
-
+    //Stickybar
+    if(jQuery('.site-header').length){
+        var stickyNavTop = jQuery('.site-header').scrollTop() > 1;
+        var stickyNav = function(){
+            var scrollTop = jQuery(window).scrollTop();
+            if (scrollTop > stickyNavTop) {
+                jQuery('.site-header').addClass('nnc-sticky');
+            } else {
+                jQuery('.site-header').removeClass('nnc-sticky');
+            }
+        };
+        stickyNav();
+        jQuery(window).scroll(function() {
+            stickyNav();
+        });
+    }
 });
  
 //************************ search-form ***********************************//
