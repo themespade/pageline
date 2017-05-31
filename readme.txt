@@ -79,6 +79,9 @@ and we will include it within the theme from next version update.
 /**********************************************************/
 
 == CHANGE LOG ==
+= 2.0.0 =
+* Bug Fixes: Fixes a variety of small issues.
+
 = 1.0.9 =
 * Updated: customizer.php
 * Updated: content-slider.php
