@@ -1212,7 +1212,7 @@ class Pageline_Contact_Widget extends WP_Widget {
           <?php if ( !empty( $email_info ) ) : ?>
             <div class="nnc-col-one-third">
               <i class="fa <?php echo esc_attr( $email_icon ); ?>" aria-hidden="true"></i>
-              <span><?php echo esc_url( $email_info ); ?></span>
+              <span><?php echo esc_html( $email_info ); ?></span>
             </div>
           <?php endif; ?>
 
@@ -1253,7 +1253,7 @@ class Pageline_Contact_Widget extends WP_Widget {
     $instance['phone_icon']   = sanitize_text_field( $new_instance['phone_icon'] );
     $instance['phone_info']   = sanitize_text_field( $new_instance['phone_info'] );
     $instance['email_icon']   = sanitize_text_field( $new_instance['email_icon'] );
-    $instance['email_info']   = esc_url_raw( $new_instance['email_info'] );
+    $instance['email_info']   = sanitize_text_field( $new_instance['email_info'] );
     $instance['address_icon'] = sanitize_text_field( $new_instance['address_icon'] );
     $instance['address_info'] = sanitize_text_field( $new_instance['address_info'] );
     $instance['shortcode']    = strip_tags( $new_instance['shortcode'] );
@@ -1319,7 +1319,7 @@ class Pageline_Contact_Widget extends WP_Widget {
       <input id="<?php echo $this->get_field_id('email_icon'); ?>" class="widefat" name="<?php echo $this->get_field_name('email_icon'); ?>" type="text" value="<?php echo esc_attr( $email_icon ); ?>" placeholder="fa-coffee"/></p>
 
     <p><label for="<?php echo $this->get_field_id('email_info'); ?>"><?php esc_html_e( 'Email Address:', 'pageline' ); ?></label>
-      <input id="<?php echo $this->get_field_id('email_info'); ?>" class="widefat" name="<?php echo $this->get_field_name('email_info'); ?>" type="text" value="<?php echo esc_url( $email_info ); ?>" /></p>
+      <input id="<?php echo $this->get_field_id('email_info'); ?>" class="widefat" name="<?php echo $this->get_field_name('email_info'); ?>" type="text" value="<?php echo esc_attr( $email_info ); ?>" /></p>
 
     <p><label for="<?php echo $this->get_field_id('address_icon'); ?>"><?php esc_html_e( 'Icon Class:', 'pageline' ); ?></label>
       <input id="<?php echo $this->get_field_id('address_icon'); ?>" class="widefat" name="<?php echo $this->get_field_name('address_icon'); ?>" type="text" value="<?php echo esc_attr( $address_icon ); ?>" placeholder="fa-coffee"/></p>
